@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load model
-model = pickle.load(open("model_pipeline (1).pkl", "rb"))
+model = pickle.load(open("model_pipeline.pkl", "rb"))
 
 st.title("HR Attrition Prediction")
 
